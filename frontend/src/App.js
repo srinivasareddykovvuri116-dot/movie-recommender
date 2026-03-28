@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
-const API = "http://127.0.0.1:8000";
+const API = "https://movie-recommender-6cgf.onrender.com";
 
 function App() {
   const [movies, setMovies] = useState([]);
