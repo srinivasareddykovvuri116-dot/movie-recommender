@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: movie-recommender-backend
+    runtime: python
+    plan: free
+    buildCommand: pip install -r backend/requirements.txt cd backend && python train_model.py cd backend && python collab_model.py
+    startCommand: uvicorn main:app --host 0.0.0.0 --port 10000
+    envVars:
+      - key: OMDB_API_KEY
+        sync: false
+    
