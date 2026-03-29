@@ -1,70 +1,63 @@
-# Getting Started with Create React App
+# 🎬 Movie Recommendation System (Full Stack + ML)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🚀 Overview
+A full-stack movie recommendation system that suggests personalized movies using machine learning techniques like collaborative filtering and cosine similarity.
 
-## Available Scripts
+## 🧠 Features
+- Personalized movie recommendations based on user behavior
+- Collaborative filtering using cosine similarity
+- FastAPI backend for real-time recommendations
+- Netflix-style responsive UI built with React
+- Integration with external movie APIs for:
+  - Posters
+  - Ratings
+  - Genres
+  - Plot descriptions
+- Dynamic search functionality
+- Optimized performance using asynchronous API calls
 
-In the project directory, you can run:
+## 🛠 Tech Stack
+- **Frontend:** React.js, Axios
+- **Backend:** FastAPI
+- **Machine Learning:** Pandas, Scikit-learn
+- **Others:** REST APIs
 
-### `npm start`
+## 📂 Project Structure
+movie-recommendation-system/
+│
+├── backend/
+│ ├── main.py
+│ ├── model.py
+│ ├── requirements.txt
+│
+├── frontend/
+│ ├── src/
+│ ├── package.json
+│
+├── README.md
+└── .gitignore
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ⚙️ Installation & Setup
 
-### `npm test`
+### 🔹 Backend Setup
+```bash
+cd backend
+pip install -r requirements.txt
+uvicorn main:app --reload
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+cd frontend
+npm install
+npm start
 
-### `npm run build`
+API Endpoints
+GET /recommend?movie_name=... → Get recommended movies
+GET /movies → Fetch all movies
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Future Improvements
+Add user authentication
+Improve recommendation accuracy
+Deploy using cloud platforms
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+👨‍💻 Author
+K R S Srinivasa Re
