@@ -1,63 +1,147 @@
-# 🎬 Movie Recommendation System (Full Stack + ML)
+# 🎬 Movie Recommender System
 
-## 🚀 Overview
-A full-stack movie recommendation system that suggests personalized movies using machine learning techniques like collaborative filtering and cosine similarity.
+A full-stack AI-powered Movie Recommendation Web Application built using React, FastAPI, and Machine Learning. The system recommends similar movies based on user ratings using the Cosine Similarity algorithm and displays movie posters, IMDb ratings, genres, release years, and movie descriptions using the OMDb API.
 
-## 🧠 Features
-- Personalized movie recommendations based on user behavior
-- Collaborative filtering using cosine similarity
-- FastAPI backend for real-time recommendations
-- Netflix-style responsive UI built with React
-- Integration with external movie APIs for:
-  - Posters
-  - Ratings
-  - Genres
-  - Plot descriptions
-- Dynamic search functionality
-- Optimized performance using asynchronous API calls
+---
 
-## 🛠 Tech Stack
-- **Frontend:** React.js, Axios
-- **Backend:** FastAPI
-- **Machine Learning:** Pandas, Scikit-learn
-- **Others:** REST APIs
+## 🚀 Features
+
+* 🔍 Search movies instantly
+* 🎯 Get personalized movie recommendations
+* 🎬 Display movie posters
+* ⭐ Show IMDb ratings
+* 📅 Display release year
+* 🎭 Show movie genres
+* 📝 Display movie descriptions
+* ⚡ FastAPI backend for high performance
+* 🌐 Fully deployed frontend and backend
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+
+* React.js
+* Axios
+* CSS
+
+### Backend
+
+* FastAPI
+* Pandas
+* Scikit-learn
+* Cosine Similarity
+
+### APIs
+
+* OMDb API
+
+### Deployment
+
+* Frontend: Vercel
+* Backend: Render
+
+---
+
+## 🧠 Machine Learning Concept
+
+This project uses Collaborative Filtering with Cosine Similarity to recommend movies. A movie-user matrix is created from user ratings, and similarity scores are calculated between movies to recommend similar content.
+
+---
 
 ## 📂 Project Structure
-movie-recommendation-system/
-│
+
+movie-recommender-fullstack/
+
 ├── backend/
-│ ├── main.py
-│ ├── model.py
-│ ├── requirements.txt
+│   ├── main.py
+│   ├── model.py
+│   ├── requirements.txt
 │
 ├── frontend/
-│ ├── src/
-│ ├── package.json
+│   ├── src/
+│   ├── public/
+│   ├── package.json
 │
-├── README.md
-└── .gitignore
+├── data/
+│   ├── movies.csv
+│   ├── ratings.csv
 
+---
 
-## ⚙️ Installation & Setup
+## ⚙️ Installation
 
-### 🔹 Backend Setup
+### Clone Repository
+
+```bash
+git clone https://github.com/your-username/movie-recommender-fullstack.git
+cd movie-recommender-fullstack
+```
+
+---
+
+### Backend Setup
+
 ```bash
 cd backend
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
+---
+
+### Frontend Setup
+
+```bash
 cd frontend
 npm install
 npm start
+```
 
-API Endpoints
-GET /recommend?movie_name=... → Get recommended movies
-GET /movies → Fetch all movies
+---
 
-Future Improvements
-Add user authentication
-Improve recommendation accuracy
-Deploy using cloud platforms
+## 🌍 Live Demo
 
-👨‍💻 Author
-K R S Srinivasa Re
+### Frontend
+
+https://your-vercel-link.vercel.app
+
+### Backend
+
+https://movie-recommender-fullstack-4.onrender.com
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+* Home page
+* Movie recommendations
+* Posters and ratings section
+
+---
+
+## 🔥 Future Improvements
+
+* 🤖 AI-based hybrid recommendation system
+* 👤 User authentication
+* ❤️ Watchlist feature
+* 🎬 Trending movies section
+* 📊 Recommendation analytics dashboard
+* 🌙 Dark mode UI
+
+---
+
+## 👨‍💻 Author
+
+K R S Srinivasa Reddy
+
+B.Tech Student | Python Developer | AI & Full-Stack Enthusiast
+
+---
+
+## ⭐ Support
+
+If you like this project, give it a star on GitHub ⭐
