@@ -75,7 +75,7 @@ movie-recommender-fullstack/
 ### Clone Repository
 
 ```bash
-git clone https://github.com/your-username/movie-recommender-fullstack.git
+git clone https://github.com/srinivasareddykovvuri116-dot/movie-recommender-fullstack.git
 cd movie-recommender-fullstack
 ```
 
@@ -105,21 +105,7 @@ npm start
 
 ### Frontend
 
-https://your-vercel-link.vercel.app
-
-### Backend
-
-https://movie-recommender-fullstack-4.onrender.com
-
----
-
-## 📸 Screenshots
-
-Add screenshots of:
-
-* Home page
-* Movie recommendations
-* Posters and ratings section
+https://movie-recommender-nu-black.vercel.app/
 
 ---
 
