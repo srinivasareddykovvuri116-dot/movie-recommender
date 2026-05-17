@@ -1,24 +1,24 @@
-# 🎬 Movie Recommender System
+# Movie Recommender System
 
 A full-stack AI-powered Movie Recommendation Web Application built using React, FastAPI, and Machine Learning. The system recommends similar movies based on user ratings using the Cosine Similarity algorithm and displays movie posters, IMDb ratings, genres, release years, and movie descriptions using the OMDb API.
 
 ---
 
-## 🚀 Features
+## Features
 
-* 🔍 Search movies instantly
-* 🎯 Get personalized movie recommendations
-* 🎬 Display movie posters
-* ⭐ Show IMDb ratings
-* 📅 Display release year
-* 🎭 Show movie genres
-* 📝 Display movie descriptions
-* ⚡ FastAPI backend for high performance
-* 🌐 Fully deployed frontend and backend
+* Search movies instantly
+* Get personalized movie recommendations
+* Display movie posters
+* Show IMDb ratings
+* Display release year
+* Show movie genres
+* Display movie descriptions
+* FastAPI backend for high performance
+* Fully deployed frontend and backend
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 ### Frontend
 
@@ -44,13 +44,13 @@ A full-stack AI-powered Movie Recommendation Web Application built using React, 
 
 ---
 
-## 🧠 Machine Learning Concept
+## Machine Learning Concept
 
 This project uses Collaborative Filtering with Cosine Similarity to recommend movies. A movie-user matrix is created from user ratings, and similarity scores are calculated between movies to recommend similar content.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 movie-recommender-fullstack/
 
@@ -70,7 +70,7 @@ movie-recommender-fullstack/
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 ### Clone Repository
 
@@ -101,7 +101,7 @@ npm start
 
 ---
 
-## 🌍 Live Demo
+## Live Demo
 
 ### Frontend
 
@@ -109,18 +109,18 @@ https://movie-recommender-nu-black.vercel.app/
 
 ---
 
-## 🔥 Future Improvements
+## Future Improvements
 
-* 🤖 AI-based hybrid recommendation system
-* 👤 User authentication
-* ❤️ Watchlist feature
-* 🎬 Trending movies section
-* 📊 Recommendation analytics dashboard
-* 🌙 Dark mode UI
+* AI-based hybrid recommendation system
+* User authentication
+* Watchlist feature
+* Trending movies section
+* Recommendation analytics dashboard
+* Dark mode UI
 
 ---
 
-## 👨‍💻 Author
+##Author
 
 K R S Srinivasa Reddy
 
@@ -128,6 +128,6 @@ B.Tech Student | Python Developer | AI & Full-Stack Enthusiast
 
 ---
 
-## ⭐ Support
+## Support
 
-If you like this project, give it a star on GitHub ⭐
+If you like this project, give it a star on GitHub 
